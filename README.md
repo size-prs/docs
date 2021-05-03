@@ -1,6 +1,7 @@
 # Size PRs
 
 Size PRs helps your team by automatically categorising PRs by kind and size using AI.
+
 It will nudge your contributors to create better PRs.
 
 And you can extend your workflow using these new labels!
@@ -22,11 +23,17 @@ tiny, small, medium, large or huge.
 
 ![](assets/submitted-pr.png)
 
-### 3. Extend your existing workflow.
+### 3. Update your PR
 
-    Use the labels to automatically take actions and make contributing awesome.
+When you change the PR, the `kind` and `size` will be recalculated.
 
-## Extending Workflow Examples
+If either changes, the label will be updated, a new comment will be added, and the previous comment will be hidden; keeping your PR tidy.
+
+## Bonus: Extend your existing workflow
+
+Use the labels to automatically take actions and make contributing awesome.
+
+###  Examples
 
 1. Automatically Merge a PR when it's labelled.
 
